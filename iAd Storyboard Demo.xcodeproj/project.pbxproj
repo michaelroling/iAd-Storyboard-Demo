@@ -28,6 +28,8 @@
 		6DA87DA8178446EF00D1DD2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA87D78178446EF00D1DD2F /* Foundation.framework */; };
 		6DA87DB0178446EF00D1DD2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87DAE178446EF00D1DD2F /* InfoPlist.strings */; };
 		6DA87DB3178446EF00D1DD2F /* iAd_Storyboard_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87DB2178446EF00D1DD2F /* iAd_Storyboard_DemoTests.m */; };
+		6DA87DBE1784477400D1DD2F /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87DBD1784477400D1DD2F /* BannerViewController.m */; };
+		6DA87DC01784486300D1DD2F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA87DBF1784486300D1DD2F /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,9 @@
 		6DA87DAF178446EF00D1DD2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DA87DB1178446EF00D1DD2F /* iAd_Storyboard_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iAd_Storyboard_DemoTests.h; sourceTree = "<group>"; };
 		6DA87DB2178446EF00D1DD2F /* iAd_Storyboard_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAd_Storyboard_DemoTests.m; sourceTree = "<group>"; };
+		6DA87DBC1784477400D1DD2F /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		6DA87DBD1784477400D1DD2F /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		6DA87DBF1784486300D1DD2F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA87DC01784486300D1DD2F /* iAd.framework in Frameworks */,
 				6DA87D77178446EF00D1DD2F /* UIKit.framework in Frameworks */,
 				6DA87D79178446EF00D1DD2F /* Foundation.framework in Frameworks */,
 				6DA87D7B178446EF00D1DD2F /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +104,7 @@
 		6DA87D6A178446EF00D1DD2F = {
 			isa = PBXGroup;
 			children = (
+				6DA87DBF1784486300D1DD2F /* iAd.framework */,
 				6DA87D7C178446EF00D1DD2F /* iAd Storyboard Demo */,
 				6DA87DAB178446EF00D1DD2F /* iAd Storyboard DemoTests */,
 				6DA87D75178446EF00D1DD2F /* Frameworks */,
@@ -128,6 +135,8 @@
 		6DA87D7C178446EF00D1DD2F /* iAd Storyboard Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6DA87DBC1784477400D1DD2F /* BannerViewController.h */,
+				6DA87DBD1784477400D1DD2F /* BannerViewController.m */,
 				6DA87D85178446EF00D1DD2F /* AppDelegate.h */,
 				6DA87D86178446EF00D1DD2F /* AppDelegate.m */,
 				6DA87D8E178446EF00D1DD2F /* MainStoryboard.storyboard */,
@@ -295,6 +304,7 @@
 				6DA87D87178446EF00D1DD2F /* AppDelegate.m in Sources */,
 				6DA87D93178446EF00D1DD2F /* FirstViewController.m in Sources */,
 				6DA87D9A178446EF00D1DD2F /* SecondViewController.m in Sources */,
+				6DA87DBE1784477400D1DD2F /* BannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
